@@ -1,0 +1,13 @@
+{
+    "diff": true,
+    "extension": [
+        "ts"
+    ],
+    "opts": false,
+    "package": "./package.json",
+    "watch-files": [
+        "test/**/*.test.ts"
+    ],
+    "require": "ts-node/register",
+    "spec": "test/**/*.test.ts"
+}
